@@ -1,0 +1,157 @@
+@media (max-width: 1300px) {}
+div
+{
+    display: block;
+    box-sizing: border-box;
+}
+div.harea
+{
+    border:hidden;
+    box-sizing: border-box;
+    position: relative;
+    border:none;
+
+}
+div.hareatop
+{
+    background-color: black;
+    color:white;
+   display: block;
+   box-sizing: border-box;
+   font-size: larger;
+   padding-top:20px;
+   margin:auto;
+}
+
+div.hareabottom
+{
+    background-color: skyblue;
+    color:rgb(0, 6, 8);
+    padding:10px 0;
+    display: block;
+    box-sizing: border-box;
+    font-weight: 800;
+    position:relative;
+    
+    
+}
+.nor
+{
+    text-align: left;
+}
+.fas fa-align-justify
+{
+    align-items: end;
+}
+.dropdown
+{
+    display: inline-block  ;
+    margin-right: 50px;
+   
+   padding-right: 100px;
+ 
+}
+.dropdown-menu
+{
+   background-color: skyblue;
+  font-size: large;
+  min-height: 200px;
+  min-width: 1300px;
+  
+}
+
+body
+{
+    background-color:lightcyan;
+
+}
+.button
+{
+    background-color:orangered;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px;
+    cursor: pointer;
+}
+.button1
+{
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px;
+    cursor: pointer;
+}
+.about_section layout_padding-bottom
+{
+    background-color: aquamarine;
+}
+.section.service_section layout-padding
+{
+    background-color: white;
+}
+.img-box
+{
+    box-sizing: border-box;
+}
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.service_section .box {
+    margin-top: 30px;
+    text-align: center;
+    
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+    padding: 5px 5px;
+   
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.col-md-6 {
+    
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.contact_section input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    outline: none;
+    color: red;
+    float:center;
+   
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+.contact_section .map_container {
+    height: 360px;
+}
+
+  
+ 
+    

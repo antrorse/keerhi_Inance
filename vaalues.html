@@ -1,0 +1,25 @@
+
+<html>
+    <head>    
+
+    </head>
+    <body>
+        <p id="evals"></p>
+        
+        <script>
+            
+            let params=new URLSearchParams( window.location.search);
+            let cname=params.get('cname');
+            let cphnr=params.get('cphnr');
+            let cemail=params.get('cemail');
+            let cmsg=params.get('cmsg');
+          
+            document.getElementById("evals").innerHTML = cname;
+            document.getElementById("evals").innerHTML = cphnr;
+            document.getElementById("evals").innerHTML = cemail;
+            document.getElementById("evals").innerHTML = cmsg;
+            
+        </script> 
+        
+    </body>
+</html>
